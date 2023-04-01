@@ -1,0 +1,24 @@
+.welcomeuser {
+  width: 100%;
+}
+.data {
+  height: 551px;
+  overflow: hidden;
+}
+#myVideo {
+  position: relative;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.content {
+  position: absolute;
+  top: 38%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.content h1{
+    font-size: 25px;
+}

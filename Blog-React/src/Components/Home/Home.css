@@ -1,0 +1,199 @@
+.container {
+  margin: auto;
+}
+.swiper {
+  width: 80%;
+  height: 360px;
+  margin: auto;
+  border-radius: 25px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.swiper-slide figure {
+  width: 40%;
+}
+.swiper-slide img {
+  display: block;
+}
+.navbar-center {
+  width: 165px;
+}
+.navbar-center .links {
+  margin-right: 10%;
+  font-size: 26px;
+}
+.navbar-center .links a {
+  margin: 12px;
+}
+
+.slider .card {
+  flex-direction: row;
+  width: 100%;
+}
+.card .cardimg {
+  width: 40%;
+}
+.card .carddata {
+  width: 60%;
+  /* text-align: right; */
+  padding: 25px;
+  box-sizing: border-box;
+}
+.card .carddata a {
+  font-size: 20px;
+  font-weight: 700;
+}
+.card .carddata h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.card .carddata h1 p {
+  line-height: 41px;
+}
+.card .carddata .ptext {
+  font-size: 15px;
+  margin-top: 14px;
+  line-height: 24px;
+}
+.card .carddata .postinfo img {
+  border-radius: 50%;
+}
+.postinfo {
+  margin-right: 8px;
+}
+.dataprofile {
+  margin-top: 8px;
+  justify-content: space-evenly;
+}
+.sectionpost {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.sectionpost .singlepost {
+  width: 30%;
+  color: white;
+  background-color: darkcyan;
+  /* height: 200px; */
+}
+/*------------------------single post-----------*/
+.singlepost {
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 30%;
+  margin-top: 15px;
+  /* height: 532; */
+}
+.singlepost .cardimg {
+  width: 100%;
+  height: 229px;
+}
+.singlepost .cardimg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.singlepost .card .carddata {
+  width: 100%;
+  padding: 16px 30px;
+}
+.singlepost .card .carddata h1 {
+  font-size: 17px;
+  font-weight: 700;
+}
+.singlepost .card .carddata h2{
+  -webkit-line-clamp: 1;
+  /* display: box; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+}
+.singlepost .datadate {
+  justify-content: space-evenly;
+  align-items: center;
+  /* height: 44px; */
+}
+.singlepost .card .carddata .ptext button {
+  margin-left: 60%;
+}
+.singlepost .card .carddata .ptext p {
+  -webkit-line-clamp: 3;
+  /* display: box; */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: hidden;
+}
+.btntoadd button {
+  margin: auto;
+  display: block;
+  margin-top: 22px;
+  color: white !important;
+}
+
+@media only screen and (max-width: 1060px) {
+  .sectionpost {
+    display: flex;
+    flex-direction: row;
+  }
+  .sectionpost .singlepost {
+    width: 45%;
+    height: 530px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  .singlepost .datadate {
+    display: block;
+  }
+}
+.totalPost {
+  background-color: darkcyan;
+  color: white;
+  padding: 22px;
+  margin: auto;
+  text-align: center;
+  width: 258px;
+  margin-top: 20px;
+  border-radius: 19px;
+}
+.totalPost h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.totalPost p {
+  font-size: 20px;
+}
+@media only screen and (max-width: 636px) {
+  .navbar-center .links {
+    display: none;
+  }
+
+  .sectionpost {
+    display: flex;
+    flex-direction: column;
+  }
+  .sectionpost .singlepost {
+    width: 80%;
+
+    margin: auto;
+    margin-top: 10px;
+  }
+  .read{
+    margin-left: 5.5rem !important;
+  }
+}

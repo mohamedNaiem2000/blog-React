@@ -1,0 +1,75 @@
+.swiper {
+    width: 80%;
+    height: 360px;
+    margin: auto;
+    border-radius: 25px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .swiper-slide figure {
+    width: 40%;
+  }
+  .swiper-slide img {
+    display: block;
+  }
+  
+  
+  .slider .card {
+    flex-direction: row;
+    width: 100%;
+  }
+  .card .cardimg {
+    width: 40%;
+  }
+  .card .carddata {
+    width: 60%;
+    /* text-align: right; */
+    padding: 25px;
+    box-sizing: border-box;
+  }
+  .card .carddata a {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .card .carddata h1 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .card .carddata h1 p {
+    line-height: 41px;
+  }
+  .card .carddata .ptext {
+    font-size: 15px;
+    margin-top: 14px;
+    line-height: 24px;
+  }
+  .card .carddata .postinfo img {
+    border-radius: 50%;
+    width: 40px;
+      height: 40px;
+  } 
+  .postinfo {
+    margin-right: 8px;
+  }
+  .dataprofile {
+    margin-top: 18px;
+    justify-content: end;
+  }
+  .sectionpost {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  .sectionpost .singlepost {
+    width: 57%;
+    margin: auto;
+  }

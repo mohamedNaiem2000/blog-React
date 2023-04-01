@@ -1,0 +1,100 @@
+ .add {
+  /* background-image: url(../../images/bglogin.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+  position: absolute;
+  top: 12% !important;
+  background: rgb(0 0 0 / 86%);
+  color: white;
+  width: 100%;
+  height: 88vh;
+}
+
+.addpostform {
+  /* background: -webkit-linear-gradient(top, #7579ff, #b224ef); */
+    width: 500px;
+    height: 500px;
+}
+.addpostform h1{
+  font-size: 30px;
+    /* color: darkblue; */
+}
+
+.addpostform form{
+  width: 80%;
+  padding: 25px 0;
+  height: 80%;
+  margin: auto; 
+ color: black;
+}
+.addpostform .form-control{
+  justify-content: space-between;
+}
+.addpostform form input{
+  width: 250px !important;
+  padding: 9px;
+}
+
+.addpostform form .form-control span{
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+}
+.loginform div{
+  display: flex;
+  justify-content: space-between;
+} 
+.form-text{
+justify-content: flex-start !important;
+margin-top: 9px !important;
+}
+.form-text textarea{
+  width: 250px;
+    margin-top: 26px;
+    margin-left: 19px;
+    border-radius: 10px;
+    height: 147px;
+    padding-left: 6px;
+    padding-top: 5px;
+}
+.data {
+  height: 88vh !important;
+  overflow: hidden;
+}
+#myVideo {
+  position: relative;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.data .hello{
+  position: absolute;
+  top: 12% !important;
+  background: rgb(0 0 0 / 86%);
+  color: #f1f1f1;
+  width: 100%;
+  height: 88vh;
+}
+.hello h1{
+    font-size: 25px;
+}
+.labelfortext{
+  color: white;
+    padding-left: 13px;
+    padding-top: 78px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 500px) {
+  .add{
+    top: 8% !important;
+
+
+  }
+  .data{
+    height: 100vh;
+  }
+} 
